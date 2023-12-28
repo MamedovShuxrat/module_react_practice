@@ -1,0 +1,30 @@
+.UserCard {
+    background: #efefef;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px 7px 0 #323232;
+    padding: 10px;
+    width: 400px;
+    display: grid;
+    grid-column-gap: 6px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.Title {
+    font-weight: bold;
+}
+
+.Btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: #8de0d8;
+    border-radius: 8px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.red {
+    color: red;
+}
